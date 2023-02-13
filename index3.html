@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--SVG-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/solid.min.css" integrity="sha512-6mc0R607di/biCutMUtU9K7NtNewiGQzrvWX4bWTeqmljZdJrwYvKJtnhgR+Ryvj+NRJ8+NnnCM/biGqMe/iRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yunita Sari</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            text-decoration:none;
+            list-style:none;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        body {
+            padding:0px 100px 0px 100px;
+            margin:0px auto 0px auto;
+        }
+
+        .container .navbar {
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            padding:10px;
+            background:#05386B;
+        }
+        .container .navbar .head h2,
+        .container .navbar .menu ul li a {
+            font-family: 'Edu TAS Beginner', cursive;
+            text-transform:uppercase;
+            color:#fff;
+            font-weight:600;
+        }
+
+        .container .navbar .menu ul li {
+            display:inline;
+            padding-left:15px;
+        }
+
+        .container .ban {
+            padding:10px;
+            width:100%;
+            height:380px;
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+
+        .container .ban .konten {
+            width:40%;
+            text-align:justify;
+        }
+
+        .container .ban .konten h2 {
+            margin-bottom:10px;
+            text-transform:uppercase;
+        }
+
+        .container .ban .gambar {
+            width:50%;
+            height:370px;
+            text-align:center;
+        }
+
+        .container .ban .gambar img {
+            width:100%;
+            height:100%;
+        }
+
+        .container .about {
+            padding:10px;
+            margin-top: 100px;
+        }
+
+        .container .about h2 {
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom:15px;
+        }
+
+        .container .about .konten {
+            display: flex;
+            justify-content: space-between;
+            text-align: justify;
+        }
+
+        .container .about .konten .konten1 {
+            width:50%;
+            margin-right:20px;
+        }
+
+        .container .about .konten .konten2 {
+            width:50%;
+            margin-left:20px;
+        }
+
+        .container .galeri {
+            padding:10px;
+            margin-top:100px;
+        }
+
+        .container .galeri h2 {
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom:15px;
+        }
+
+        .container .galeri .gambar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container .galeri .gambar .gambarr {
+            width:280px;
+            height:250px;
+            margin:5px;
+        }
+
+        .container .galeri .gambar .gambarr img {
+            width:100%;
+            height:100%;
+        }
+
+        .container .kontak {
+            padding:10px;
+            margin-top:100px;
+            margin-bottom:100px;
+        }
+
+        .container .kontak h2 {
+            text-align: center;
+            text-transform:uppercase;
+            margin-bottom:10px;
+        }
+
+        .container .kontak .kontak1 {
+            margin:0 auto;
+            width:50%;
+            text-align:center;
+        }
+
+        .container .kontak .kontak1 a {
+            text-decoration:none;
+        }
+
+        .container .kontak .kontak1 a i {
+            font-size:50px;
+            text-align: center;
+            margin-right:15px;
+        }
+
+        .container .kontak .kontak1 a .fa-twitter {
+            color:#1da1f2;
+        }
+
+        .container .kontak .kontak1 a .fa-envelope {
+            color:#7232bd;
+        }
+
+        .container .kontak .kontak1 a .fa-instagram {
+            color:#c32aa3;
+        }
+
+        .container .hh .h {
+            margin:0 auto;
+            padding:20px 0px;
+            text-align:center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="head">
+                <h2>Yunita Sari</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ban">
+            <div class="konten">
+                <h2>Yunita Sari</h2>
+                <p>HALLO SEMUANYA!</p>
+            </div>
+            <div class="gambar">
+                <img src="yuns.jpeg">
+            </div>
+        </div>
+        <div class="about">
+            <h2>About</h2>
+            <div class="konten">
+                <div class="konten1">
+                    <p>Perkenalkan nama lengkap saya Yunita Sari biasanya di panggil Yuni. Tempat tanggal lahir saya Palu, 07 Mei 2003. Saya anak terakhir dari 3 bersaudara. Saat ini saya sedang berkuliah di STMIK Adhi Guna Palu, mahasiswi Jurusan informatika angkatan 2021. </p>
+                </div>
+                <div class="konten2">
+                    <p>Saya lulusan sekolah dasar SDN 2 petobo pada tahun 2015. lulus sekolah menengah pertama pada tahun 2018 di SMP negeri 6 palu. dan lulus sekolah menengah atas pada tahun 2021 di SMA negeri 3 Palu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="galeri">
+            <h2>Gallery</h2>
+            <div class="gambar">
+                <div class="gambarr">
+                    <img src="YUNI (1).jpg">
+                </div>
+                <div class="gambarr">
+                    <img src="YUNI (2).jpg">
+                </div>
+                <div class="gambarr">
+                    <img src="yun.jpeg">
+                </div>
+                <div class="gambarr">
+                    <img src="YUNI3.jpeg">
+                </div>
+                <div class="gambarr">
+                    <img src="yuni.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="container text-center"> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/m5Z9cGjRSIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="row bg-primary text-light text-center"> 
+            <div class="container py-2">
+            </div>
+          </div> 
+        <div class="kontak">
+            <h2>Contact</h2>
+            <div class="kontak1">
+                <a href="https://instagram.com/" target="ynitasariii"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="yunitasarii072003@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://twitter.com/" target="yuunnsssss"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="hh"> 
+            <div class="h">
+                <p>
+                    Copyright 2023 - Yunita Sari
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
